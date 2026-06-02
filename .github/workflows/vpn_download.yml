@@ -25,8 +25,8 @@ jobs:
       env:
         VPN_USERNAME: ${{ secrets.VPN_USERNAME }}
         VPN_PASSWORD: ${{ secrets.VPN_PASSWORD }}
-        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        TELEGRAM_BOT_TOKEN: ${{ 8176299713:AAFL32s7AzxBoBjx08_e6xl1JCnRsuRgDD4 }}
+        TELEGRAM_CHAT_ID: ${{ 8176299713 }}
       run: python proton_downloader_chrome.py
 
     - name: Commit and Push Changes
