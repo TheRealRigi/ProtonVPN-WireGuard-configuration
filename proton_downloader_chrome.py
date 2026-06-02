@@ -22,8 +22,8 @@ MAX_DOWNLOADS_PER_SESSION = 20
 RELOGIN_DELAY = 120 
 
 # Environment variables
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
+TELEGRAM_BOT_TOKEN = os.environ.get("8176299713:AAFL32s7AzxBoBjx08_e6xl1JCnRsuRgDD4")
+TELEGRAM_CHAT_ID = os.environ.get("8176299713")
 
 if not os.path.exists(DOWNLOAD_DIR):
     os.makedirs(DOWNLOAD_DIR)
